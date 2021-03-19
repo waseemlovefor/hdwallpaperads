@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivityActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="9"
+    android:layout_height="0dp">
+   <com.github.chrisbanes.photoview.PhotoView
+       android:layout_width="match_parent"
+       android:id="@+id/photoview"
+       android:scaleType="centerCrop"
+       android:src="@drawable/ic_launcher_background"
+       android:layout_height="match_parent"/>
+</LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_weight="1"
+       android:layout_height="0dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+   <Button
+       android:layout_width="match_parent"
+       android:layout_weight="1"
+       android:text="Download"
+       android:onClick="downloadimage"
+       android:fontFamily="casual"
+       android:textColor="@color/white"
+       android:background="@drawable/backbtn"
+       android:layout_height="match_parent"/>
+   <Button
+       android:layout_width="match_parent"
+       android:text="Set Wallpaper"
+       android:fontFamily="casual"
+       android:onClick="setwallpaper"
+       android:background="@drawable/backbtn"
+       android:textColor="@color/black"
+       android:layout_weight="1"
+       android:layout_height="match_parent"/>
+</LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>
