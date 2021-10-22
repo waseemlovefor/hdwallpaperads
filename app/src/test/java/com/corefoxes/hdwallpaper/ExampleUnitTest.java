@@ -1,4 +1,4 @@
-package com.high.fullhdwallpaper;
+package com.corefoxes.fullhdwallpaper;
 
 import org.junit.Test;
 

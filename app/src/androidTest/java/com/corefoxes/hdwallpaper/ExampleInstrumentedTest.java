@@ -1,4 +1,4 @@
-package com.high.fullhdwallpaper;
+package com.corefoxes.fullhdwallpaper;
 
 import android.content.Context;
 

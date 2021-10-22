@@ -1,4 +1,4 @@
-package com.high.fullhdwallpaper;
+package com.corefoxes.fullhdwallpaper;
 
 public class PhotoList {
     int id;
